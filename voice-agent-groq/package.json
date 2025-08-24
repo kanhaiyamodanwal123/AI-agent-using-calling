@@ -1,0 +1,16 @@
+{
+  "name": "voice-agent-groq",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "groq-sdk": "^0.3.0",
+    "twilio": "^4.23.0"
+  }
+}
